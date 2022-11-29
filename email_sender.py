@@ -8,8 +8,8 @@ def send_success_email(es, ep, er, music_error_list):
     email_receiver = er
     subject = "Songs excel created correctly"
     body = f"""
-    La información de las canciones se obtuvo exitosamente.
-    Canciones no encontradas: {music_error_list}
+    The information of the songs was obtained successfully.
+    Not found songs: {music_error_list}
     """
     em = EmailMessage()
     em["From"] = email_sender
@@ -29,7 +29,7 @@ def send_error_email(es, ep, er, error_message):
     email_receiver = er
     subject = "There was an error obtaining the songs"
     body = f"""
-    Hubo un error obteniendo la información de las canciones:
+    There was an error getting the songs information:
     {error_message}
     """
     em = EmailMessage()
