@@ -6,7 +6,7 @@
 ### The project uses selenium and Firefox browser so you need to download the [Firefox web driver](https://github.com/mozilla/geckodriver) or modify the code to work with your prefered browser
 
 ### You need to create the following variables in a .env file for it to run correctly:
-  - DRIVER_PATH (absolute path to the .exe file of the web drive)
+  - DRIVER_PATH (absolute path to the .exe file of the web driver)
   - BINARY_PATH (absolute path to the .exe file of your web browser)
   - MUSIC_DIRECTORY (absolute path to the music folder)
   - EMAIL_SENDER (self explanatory)
